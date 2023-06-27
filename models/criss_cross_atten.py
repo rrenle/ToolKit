@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn import Softmax
+# https://github.com/Serge-weihao/CCNet-Pure-Pytorch/blob/master/networks/CC.py
 print("CC Moudle")
 
 def INF(B,H,W,device):
